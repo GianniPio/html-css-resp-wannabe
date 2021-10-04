@@ -95,7 +95,7 @@ img {
     width: 100%;
   }
 
-  /* Tag perta lezioni */
+  /* Tag parte lezioni */
 
   #lezioni {
     background-color: rgb(228, 228, 228);
@@ -107,6 +107,21 @@ img {
 
   #lezioni .row > .left, #lezioni .row > .right {
     width: 70%;
+    margin-bottom: 20px;
+  }
+
+  /* Tag parte steps */
+
+  #steps .row {
+    border-top: 10px solid black;
+    margin-top: 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 80%;
     margin-bottom: 20px;
   }
 
